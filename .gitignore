@@ -1,0 +1,47 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files (secrets/keys)
+.env
+.env.*
+
+# Agent configs and telemetry
+.agents/
+.gemini/
+*.webm
+
+# Editor and OS metadata
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Testing artifacts
+.pytest_cache/
+.test-workspaces/
+pytest_tmp/
+test_tmp*/
+manual_py_tmp/
+
+# UV tooling
+.uv-cache/
+.uv-python/
+.uv-test-*/
+uv-cache/
+
+# Scratch / dev-only
+scratch/
+
+# Database artifacts
+*.db
